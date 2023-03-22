@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.w3-quarter {
+    position: relative;
+    overflow: hidden;
+}
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;  
+}
