@@ -1,0 +1,37 @@
+.buttons {
+    display: flex;
+    flex-direction:row;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.buton {
+    
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+}
+.fa-trash-o {
+    color: red;
+    font-weight: bold;
+}
+.shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(1,300px);
+    justify-content: center;
+    gap: 15px;
+}
+.cart-item{
+   border: 1px solid black;
+   border-radius: 5px;
+    display: flex;
+    margin-top: 20px;
+}
+.title-price-x {
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-heart {
+    color: red;
+}
+
